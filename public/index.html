@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文件上传</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>文件上传</h1>
+  <div class="upload-area" id="dropZone">
+    <p>点击选择文件 或 拖拽文件到此处</p>
+    <input type="file" id="fileInput">
+    <div id="fileInfo"></div>
+  </div>
+  <div style="text-align:center">
+    <button class="upload-btn" id="submitBtn" disabled>上传文件</button>
+  </div>
+  <div id="status"></div>
+
+  <script src="/upload.js"></script>
+</body>
+</html>
