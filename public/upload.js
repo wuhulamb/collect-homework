@@ -52,7 +52,7 @@ submitBtn.addEventListener('click', async () => {
   showStatus('', '上传中...');
 
   try {
-    const res = await fetch('/upload', {
+    const res = await fetch('upload', {
       method: 'POST',
       body: formData,
     });
